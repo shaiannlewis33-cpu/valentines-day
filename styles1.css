@@ -1,0 +1,48 @@
+h1 {
+	text-align: center;
+}
+
+img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+button{
+	margin:1rem 0.5rem;
+	padding: 1.25rem 2em;
+	
+	font-size: 1rem;
+	font-family: sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	
+	cursor: pointer;
+	
+	border-radius: 0.75rem;
+	background: #fff0f0;
+	color:#382b22;
+	border: 2px solid #b18597;
+	
+	transition:
+		transform 200ms ease,
+		background 200ms ease,
+		box-shadow 200ms ease;
+}
+
+#yes:hover {
+	box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+#yes{
+	background: #ffe9e9;
+}
+
+button:active{
+	transform:scale(0.95);
+}
+
+body{
+	text-align:center;
+}

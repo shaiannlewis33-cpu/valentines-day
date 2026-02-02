@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang = "en-US">
+
+	<head>
+		<title>Happy Valentine's Day</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="styles1.css">
+	</head>	
+	
+	<body>
+		<h1>Will You Be My Valentine?</h1>
+		<br>
+		
+		<img src="images1/flower.gif" alt="image showing flower" width="250" height="400"></a>
+		
+		<br>
+		
+		<!--adding yes or no buttons-->
+		
+		<button id ="yes">Yes</button>
+		<button id ="no">N0</button>
+		
+	</body>
+	
+	
+		<script>
+		const yes = document.getElementById("yes");
+		const no = document.getElementById("no");
+		
+		let scale = 1;
+		
+		no.addEventListener("click", () => {
+		scale += 0.2;
+		yes.style.transform = `scale(${scale})`;
+		});
+		
+		yes.addEventListener("click", () => {
+		window.location.href = "allove.html";
+		});
+	</script>
+
+</html>
